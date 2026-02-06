@@ -154,7 +154,7 @@
 .cky-app-wrap .cky-dropdown-languages .cky-language-notice {
   background-color: #fff8d9;
   border-radius: 3px;
-  color: rgb(166, 99.0785340314, 0);
+  color: #a66300;
   font-size: 13px;
   margin-bottom: 0;
   margin-right: 12px;
@@ -170,6 +170,37 @@
   color: #4E4B66;
   font-size: 12px;
   margin-right: 18px;
+}
+.cky-app-wrap .cky-connect-modal .cky-app-modal {
+  max-width: 439px;
+  border-radius: 12px;
+  background: #FFF;
+}
+.cky-app-wrap .cky-connect-modal .cky-app-modal-footer {
+  padding: 20px 30px 30px 30px;
+}
+.cky-app-wrap .cky-connect-modal .cky-app-modal-body {
+  padding: 30px 30px 0px 30px;
+}
+.cky-app-wrap .cky-connect-modal .cky-button-close {
+  top: 15px;
+  right: 10px;
+}
+.cky-app-wrap .cky-connect-modal a.cky-login-and-connect {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #1578F7;
+  text-decoration: none;
+}
+.cky-app-wrap .cky-connect-modal a.cky-login-and-connect:hover {
+  text-decoration: none;
+}
+.cky-app-wrap .cky-connect-modal .cky-login-text {
+  margin-top: 16px;
+  margin-left: 10px;
+  white-space: nowrap;
 }
 .cky-app-wrap .cky-consent-language-lists {
   border: 1px solid #d9d9d9;
