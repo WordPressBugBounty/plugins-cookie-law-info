@@ -922,8 +922,9 @@ class Admin {
 				}
 			}
 		}
-		$links[] = '<a href="https://www.cookieyes.com/support/" target="_blank">' . esc_html__( 'Support', 'cookie-law-info' ) . '</a>';
-		$links[] = '<a href="' . get_admin_url( null, 'admin.php?page=cookie-law-info' ) . '">' . esc_html__( 'Settings', 'cookie-law-info' ) . '</a>';
+		$support_url = $settings->is_connected() ? 'https://www.cookieyes.com/support/' : 'https://wordpress.org/support/plugin/cookie-law-info/#new-topic-0';
+		$links[]     = '<a href="' . esc_url( $support_url ) . '" target="_blank">' . esc_html__( 'Support', 'cookie-law-info' ) . '</a>';
+		$links[]     = '<a href="' . get_admin_url( null, 'admin.php?page=cookie-law-info' ) . '">' . esc_html__( 'Settings', 'cookie-law-info' ) . '</a>';
 		return array_reverse( $links );
 	}
 
